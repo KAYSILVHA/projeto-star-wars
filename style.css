@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'BenchNine', sans-serif;
+}
+
+header{
+  background-color: #EDB16F;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  border: 1px solid #000; 
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 11px;
+  align-items: center;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+main{
+  width: 100%;
+  height: calc(100vh - 45px);
+  background-color: #3A2B22;
+}
+
+.banner{
+  width: 100%;
+  background-image: url('./assets/mandalorian 1.png');
+  height: calc(70vh - 45px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+}
+
+.content{
+  height: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.carrocel-filmes{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.filme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+
+.filme:hover{
+  padding-top: 15px;
+  transition: .5s ease-in-out;
+}
+.text{
+  width: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.filme img{
+  height: 154px;
+  width: 100px;
+}
+
+
+.stars{
+  width: 150px;
+}
+
+.stars img{
+  width: 100%;
+}
+
+.generos{
+  color: rgba(58, 91, 69, 1);
+  font-size: 12px;
+}
+
+.buttons img{
+  width: 55px;
+  border-radius: 50%;
+}
+
+.descricao{
+  color: white;
+  width: 451px;
+}
